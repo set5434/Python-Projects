@@ -1,0 +1,75 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\ ` . "-._ /_______________|_______
+|                   | |o ;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+# print("Welcome to Treasure Island.")
+# print("Your mission is to find the treasure.")
+#
+# print(' You come across a intersection and must choose one of the dark paths!')
+# first_step = input('Would you like to go left or right to start the journey?\n')
+#
+# if first_step.casefold() == 'left':
+#     print('loud noises are afoot and coming towards you. you are near a lake where you could escape')
+#     second_step = input('Would you like to wait or swim around the area\n')
+#
+#     if second_step.casefold() == 'wait':
+#         print('You decide to wait and see that its a goddess in angelic form that was making the noise and ask you a question')
+#         third_step = input('Which door would you like to choose. Red, Blue or Yellow?\n')
+#
+#         if third_step.casefold() == 'yellow':
+#             print('YOU WIN! You found the treasure!')
+#
+#         elif third_step.casefold() == 'blue':
+#             print('Eaten by beats. Ought to be a shame of yourself.\n Game Over! Try again!')
+#         else:
+#             print('Ouuf, burned by fire\n Game Over! Try again!')
+#
+#     else:
+#         print('Whelp dawg, you was attacked by trout. GAME OVER!\n Try again!')
+#
+# else:
+#     print('Damn Homie, you fell into a hole. Game Over!\n Try again!')
+
+
+
+print('Welcome to Treasure Island. \nYour mission id to find the treasure')
+
+step1 = input('You have arrived at a crossroad. You can only go left or right, which do you choose?\n')
+
+if step1.casefold() == 'left':
+    step2 = input('You start to hear noise and suddenly you start moving real fast to escape the noise. \nyou arrive at the lake, but dont know where the sound is coming from. \nDo you wait or swim across the lake?\n')
+
+    if step2.casefold() == 'wait':
+        step3 = input('You waited and angel appears out the lake, giving you 3 doors to open:\n Blue,Red,Yellow door, which do you choose?\n')
+
+        if step3.casefold() == 'yellow':
+            print('You win, you found the treasure!')
+
+        elif step3.casefold() == 'blue':
+            print('Eaten by beats. \nGame Over!')
+
+        else:
+            print('Burned by fire mf. \nGame Over!')
+    else:
+        print('Atacked by a trout. \n Game Over!')
+
+else:
+    print('Fall into a hole. \nGame Over!')
